@@ -58,12 +58,16 @@
   }
 }
 
-.back-to-top i {
+.back-to-top {
   color: $white-color;
-  margin: 1rem 0 $default-font-size;
+  margin: 1rem 0 0;
   transition: all 0.2s ease-in;
 
   &:hover {
+    color: $white-color;
     transform: translateY(-2px);
   }
 }
+
+
+
