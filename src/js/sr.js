@@ -60,13 +60,23 @@ export default function() {
       }, defaultProps)
   );
 
-  ScrollReveal().reveal('.project-wrapper__image', 
+  ScrollReveal().reveal('.collapsible', 
     assignProps(
       {
-        delay: 1000,
-        origin: window.innerWidth > 768 ? 'right' : 'bottom'
+        delay: 500,
+        origin: window.innerWidth > 768 ? 'left' : 'bottom'
       }, defaultProps)
   );
+
+  // ScrollReveal().reveal('.project-wrapper__image', 
+  //   assignProps(
+  //     {
+  //       delay: 1000,
+  //       origin: window.innerWidth > 768 ? 'right' : 'bottom'
+  //     }, defaultProps)
+  // );
+
+  
 
   /* Contact Section */
   ScrollReveal().reveal('.contact-wrapper', 

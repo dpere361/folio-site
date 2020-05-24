@@ -18,6 +18,16 @@
     clip-path: none;
   }
 
+  // Custom left margin for the 'View Resume' button
+  .ml-custom {
+    margin-left: ($spacer * 6) !important;
+  }
+
+  .border-thick {
+    border-width: 5px !important;
+    border-radius: 8px !important;
+  }
+
   .about-wrapper {
     @include respond(phone) {
       padding-bottom: 5rem;
