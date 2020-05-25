@@ -88,12 +88,8 @@
   transition: all 0.2s ease-in;
 }
 
-
-
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-.collapsible:hover {
-  transform: translateX(2px);
-  color: grey;
+.collapsible:hover{
+  color :rgb(79, 78, 88);
 }
 
 /* Style the collapsible content. Note: hidden by default */
@@ -103,6 +99,22 @@
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.7s ease-out;
+}
+
+
+.collapse-icon {
+  transition: transform 0.2s ease-in;
+}
+
+
+
+.collapse-icon:hover {
+  transform: translateX(3px);
+}
+
+/* when the icon is a child of an active class */
+.active > .collapse-icon {
+  transform: rotate(90deg);
 }
 
 }
